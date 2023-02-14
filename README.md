@@ -1,1 +1,1 @@
-# C-Programming
+Example programs from the book C++ Programming.
