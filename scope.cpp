@@ -1,0 +1,26 @@
+// scope.cpp
+
+#include <iostream>
+
+using namespace std;
+
+float bodyTempC();
+float bodyTempF();
+
+int main()
+{
+    cout << "Centigrade: " << bodyTempC() << endl;
+    cout << "Fahrenheight: " << bodyTempF() << endl;
+
+    return 0;
+}
+
+float bodyTempC() {
+    float temperature = 37.0;
+    return temperature;
+}
+
+float bodyTempF() {
+    float temperature = 98.6;
+    return temperature;
+}
